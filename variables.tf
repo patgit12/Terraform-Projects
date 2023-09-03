@@ -25,6 +25,3 @@ variable "westside" {
   type = string
   default = "us-west-1"
 }
-
-# a test
-# another test
