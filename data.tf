@@ -1,3 +1,5 @@
+##### EAST ########
+
 data "aws_ami" "amazon_linux" {
   provider = aws.east
   most_recent = true
@@ -11,10 +13,11 @@ data "aws_ami" "amazon_linux" {
   filter {
     name   = "virtualization-type"
     values = ["hvm"]
-  }  
+  } 
     
 }
 
+#### WEST #########
 data "aws_ami" "amazon_linuxwest" {
   provider = aws.west
   most_recent = true
