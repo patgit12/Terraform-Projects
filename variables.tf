@@ -26,3 +26,5 @@ variable "westside" {
   default = "us-west-1"
 }
 
+# this is un test
+#un autre test
